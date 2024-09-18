@@ -6,11 +6,23 @@
 
   echo "<br>";
 
-  echo ucwords(strtoupper('sato ichiro'));
+  echo ucwords(strtoupper('sato ichiro')); //全て大文字で表示される
   echo "<br>";
-  echo ucwords(strtolower('SATO ICHIRO'));
+  echo ucwords(strtolower('SATO ICHIRO')); //頭の文字のみ大文字それ以外は小文字で表示される
   echo "<br>";
-  echo strtoupper(ucwords('sato ichiro'));
+  echo strtoupper(ucwords('sato ichiro')); //全て大文字で表示される
   echo "<br>";
-  echo strtolower(ucwords('SATO ICHIRO'));
+  echo strtolower(ucwords('SATO ICHIRO')); //全て小文字で表示される
+
+  echo "<br>";
+
+  $number = 0;
+
+  $number +=1;
+  $number +=2;
+  $number +=3;
+  $number +=4;
+  $number +=5;
+
+  echo 'number : '. $number;
 ?>
